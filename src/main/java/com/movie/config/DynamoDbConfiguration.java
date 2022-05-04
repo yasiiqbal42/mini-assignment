@@ -20,6 +20,7 @@ public class DynamoDbConfiguration {
     private String dynamoDbEndpoint;
     @Value("${aws.dynamodb.accessKey}")
     private String awsAccessKey;
+
     @Value("${aws.dynamodb.secretKey}")
     private String awsSecretKey;
 
